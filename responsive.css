@@ -102,4 +102,7 @@
     .footer-menu {
         width: 80%;
     }
+    .work-div {
+        gap: 1px;
+    }
 }
