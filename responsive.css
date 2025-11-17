@@ -26,6 +26,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
+        text-align: left !important;
     }
     .work-div {
         display: flex;
@@ -104,5 +105,6 @@
     }
     .work-div {
         gap: 1px;
+        text-align: left;
     }
 }
