@@ -1,0 +1,105 @@
+@media (max-width : 800px) {
+
+    .navbar {
+        margin-top: 10px;
+        padding: 0%;
+    }
+    .herosection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero-div {
+        width: 90%;
+    }
+    .hero-right-div {
+        text-align: center;
+        position: relative;
+        margin: 5px auto;
+    }
+    .search-container {
+        align-items: center;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .how-it-work-img-div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .work-div {
+        display: flex;
+        gap: 5px;
+    }
+    .brands-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .why-choose-us-container-img {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .why-choose-us-container-img > img {
+        width: 100%;
+    }
+    .why-choose-text {
+        margin-top: -40px;
+        margin-left: 10px;
+    }
+    .why-choose-us-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 250px;
+    }
+    .reviews-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .review-1 {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-hero {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer-right-div {
+        margin-top: -20px;
+        margin: 10px auto;
+    }
+    .Download-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: -50px;
+    }
+    .ipimg {
+        width: 90%;
+        margin: 5px auto;
+    }
+    .ipimg > img {
+        width: 100%;
+    }
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: center;
+    }
+    .footer-left {
+        width: 80%;
+    }
+    .footer-menu {
+        width: 80%;
+    }
+}
