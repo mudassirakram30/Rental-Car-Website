@@ -41,6 +41,13 @@
     height: 40px;
 }
 /* herosection */
+.cards-container {
+    font-family: 'Arial', sans-serif;
+  background: #fff;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
 .heading-button {
     background-color: #1572D31A;
     color: #1572D3;
@@ -51,13 +58,10 @@
     margin-top: 50px;
 }
 .how-it-work-img-div {
-    width: 50%;
+    width: 60%;
     margin: 10px auto;
 }
-.how-it-work-text-div {
-    width: 55%;
-    margin: 10px auto;
-}
+
 .brands-container {
     margin-top: 50px;
 }
@@ -66,4 +70,176 @@
 }
 .price-div {
     flex-wrap: wrap;
+}
+.why-choose-us-container-img {
+    margin-top: 250px;
+}
+/* cards */
+.cards-container {
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 18px;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  overflow: hidden;
+  text-align: left;
+  flex-shrink: 0;
+  
+  height: 360px; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+.car-img {
+  width: 100%;
+  height: 110px; 
+  object-fit: contain;
+  display: block;
+  margin-top: 6px;
+}
+
+
+.container {
+  padding: 10px 14px 16px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.car-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 8px 0 6px;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 12px;
+}
+.rating i.fa-star {
+  color: #ffc107;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.rating .score {
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-right: 4px;
+}
+.rating .reviews {
+  color: #999;
+  white-space: nowrap;
+}
+
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px 4px;
+  color: #999;
+  font-size: 11.5px;
+  margin-bottom: 18px;
+}
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+.feature-item i {
+  font-size: 13px;
+  color: #b2b2b2;
+  min-width: 16px;
+}
+
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 14px;
+}
+.price-row .amount {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+
+.rent-btn {
+  width: 100%;
+  background-color: #3479f5;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 0;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.25s ease;
+  margin-top: auto; 
+}
+.rent-btn i {
+  font-size: 14px;
+}
+.rent-btn:hover {
+  background-color: #2b64d8;
+}
+.vehicles-btn {
+    background-color: transparent !important;
+    border: 2px solid #b6adad !important;
+    color: #b6adad !important;
+}
+.Download-btn {
+    display: flex;
+    justify-content: left;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around ;
+    background-color: #263238;
+    color: white;
+    padding: 20px;
+}
+.footer-left > img {
+    width: 150px;
+}
+.subscribe-box-input {
+    background-color: #1e2529;
+}
+.subscribe-button {
+    background-color: #1e2529;
+}
+.text-none {
+    text-decoration: none;
+    color: #F5F7FA;
 }
